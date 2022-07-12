@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background: pink;
+}
+.container {
+  width: 600px;
+  height: 400px;
+  background: aquamarine;
+  margin: 150px auto;
+  /* background-image: url(./img/bg.gif); */
+  position: relative;
+}
+
+/* 结束文字样式 */
+.time-end-txt {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: -30px;
+  float: left;
+}
+.content {
+  padding: 130px 0 0 70px;
+}
+
+/* 时间列表通用样式 */
+.time-item {
+  width: 65px;
+  height: 120px;
+  float: left;
+  /* 去除图片换行带来的白边 */
+  font-size: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 每个ul */
+.time-item ul {
+  /* 方便后续动画属性transition的使用 */
+  position: absolute;
+  top: 0;
+}
+
+/* 时，分，秒 */
+.time-txt {
+  float: left;
+  height: 120px;
+  line-height: 120px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 8px;
+}
